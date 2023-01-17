@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskLib", "KioskLib\KioskLib.csproj", "{B2CCB003-8623-429E-8620-38D41A3C1AF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskApi", "KioskApi\KioskApi.csproj", "{569924A0-6F8D-492D-AE17-E0AC88111672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskTest", "KioskTest\KioskTest.csproj", "{90B871DD-CF6C-47AC-B93A-005AB7418BC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{B2CCB003-8623-429E-8620-38D41A3C1AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2CCB003-8623-429E-8620-38D41A3C1AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2CCB003-8623-429E-8620-38D41A3C1AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569924A0-6F8D-492D-AE17-E0AC88111672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569924A0-6F8D-492D-AE17-E0AC88111672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569924A0-6F8D-492D-AE17-E0AC88111672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569924A0-6F8D-492D-AE17-E0AC88111672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B871DD-CF6C-47AC-B93A-005AB7418BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B871DD-CF6C-47AC-B93A-005AB7418BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B871DD-CF6C-47AC-B93A-005AB7418BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B871DD-CF6C-47AC-B93A-005AB7418BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
