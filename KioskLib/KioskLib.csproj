@@ -7,4 +7,9 @@
     <UserSecretsId>20f9daef-d3e1-4195-89be-e31c5a94b2b5</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
+  </ItemGroup>
+
 </Project>

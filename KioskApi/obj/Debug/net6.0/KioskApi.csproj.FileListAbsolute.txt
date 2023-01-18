@@ -27,3 +27,8 @@ C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\obj\Debu
 C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\obj\Debug\net6.0\KioskApi.pdb
 C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\obj\Debug\net6.0\KioskApi.genruntimeconfig.cache
 C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\obj\Debug\net6.0\ref\KioskApi.dll
+C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\bin\Debug\net6.0\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\bin\Debug\net6.0\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
