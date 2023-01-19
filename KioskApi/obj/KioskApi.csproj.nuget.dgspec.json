@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj": {}
+    "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj": {
+    "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj",
+        "projectUniqueName": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj",
         "projectName": "KioskApi",
-        "projectPath": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskApi\\obj\\",
+        "projectPath": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskApi\\KioskApi.csproj",
+        "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj": {
-                "projectPath": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj"
+              "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj": {
+                "projectPath": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj"
               }
             }
           }
@@ -55,10 +58,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,21 +89,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj": {
+    "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj",
+        "projectUniqueName": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj",
         "projectName": "KioskLib",
-        "projectPath": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Downloads\\PortableGit\\aaa\\DTP-Train-Kiosk-API\\KioskLib\\obj\\",
+        "projectPath": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskLib\\KioskLib.csproj",
+        "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matth\\Documents\\dev\\DTP-Train-Kiosk-API\\KioskLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,16 +147,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

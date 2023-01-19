@@ -10,3 +10,15 @@ C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskLib\obj\Debu
 C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\refint\KioskLib.dll
 C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.pdb
 C:\Users\student\Downloads\PortableGit\aaa\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\ref\KioskLib.dll
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.csproj.AssemblyReference.cache
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.AssemblyInfoInputs.cache
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.AssemblyInfo.cs
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.csproj.CoreCompileInputs.cache
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.dll
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\refint\KioskLib.dll
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\KioskLib.pdb
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\bin\Debug\net6.0\KioskLib.deps.json
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\bin\Debug\net6.0\KioskLib.dll
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\bin\Debug\net6.0\KioskLib.pdb
+C:\Users\matth\Documents\dev\DTP-Train-Kiosk-API\KioskLib\obj\Debug\net6.0\ref\KioskLib.dll

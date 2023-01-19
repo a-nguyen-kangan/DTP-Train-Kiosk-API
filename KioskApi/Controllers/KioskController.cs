@@ -7,16 +7,15 @@ namespace KioskApi.Controllers;
 [Route("v1")]
 public class KioskController : ControllerBase
 {
-
-    [HttpGet("search")]
-    public string Search()
+    [HttpGet("search/{station}")]
+    public string Search(string station)
     {
-        return new TrainFetch().Search("Richmond Station").ExpectedArrival;
+        return new TrainFetch().Search(station);
     }
 
-    [HttpGet("stops/{route}/{results}")]
+    [HttpGet("stops/{destination}/{results}")]
     public string Stops(int destination, int results)
     {
-        return "5:1|8:2|12:1";
+        return "5:1:E|8:2:LTD|12:1:ALL"; // time(minutes):platform:service
     }
 }
