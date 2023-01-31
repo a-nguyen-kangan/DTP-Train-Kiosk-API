@@ -13,10 +13,10 @@ public class KioskController : ControllerBase
         return new TrainFetch().Search(station);
     }
 
-    [HttpGet("departures/{stopID}/{destinationID}/{results}")]
-    public string Stops(int stopID, int destinationID, int results)
+    [HttpGet("departures/{stopID}/{destinationID}")]
+    public string Stops(int stopID, int destinationID)
     {
-        return new TrainFetch().Departures(stopID, destinationID, results);
-        //return "5:1:E|8:2:LTD|12:1:ALL"; // time(minutes):platform:service
+        //return new TrainFetch().Departures(stopID, destinationID, results);
+        return "5:1:E"; // time(minutes):platform:service
     }
 }
