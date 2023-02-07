@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 using KioskLib;
 
 namespace KioskApi.Controllers;
@@ -16,7 +17,6 @@ public class KioskController : ControllerBase
     [HttpGet("departures/{stopID}/{destinationID}")]
     public string Stops(int stopID, int destinationID)
     {
-        //return new TrainFetch().Departures(stopID, destinationID, results);
-        return "5:1:E"; // time(minutes):platform:service
+        return JsonSerializer.Serialize(new TrainFetch().Departures(stopID, destinationID));
     }
 }

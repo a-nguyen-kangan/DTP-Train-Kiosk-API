@@ -1,19 +1,17 @@
-﻿namespace KioskLib;
+﻿using System.Text.Json;
+namespace KioskLib;
+
+public class TrainList
+{
+    public List<Train>? departures { get; set; }
+}
 
 public class Train
 {
-    public int Platform { get; }
-    public int DirectionID { get; }
-    public string ExpectedArrival { get; }
-    public int Sequence { get; }
-    public Train(int platform, int directionID, string expectedArrival, int sequence)
-    {
-        Platform = platform;
-        DirectionID = directionID;
-        ExpectedArrival = expectedArrival;
-        Sequence = sequence;
-    }
-
+    public int? run_id { get; set; }
+    public int? direction_id { get; set; }
+    public string? estimated_departure_utc { get; set; }
+    public string? platform_number { get; set; }
 }
 
 public class TrainFetch : Fetch
@@ -29,11 +27,11 @@ public class TrainFetch : Fetch
         return Request(url).Result;
         //return new Train(1, 1, "1", 0);
     }
-    public string Departures(int stopID, int destinationID, int results)
+    public Train Departures(int stopID, int destinationID)
     {
-        string time = DateTime.UtcNow.Date.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ");
-        string url = $"/v3/departures/route_type/{route_type}/stop/{stopID}?direction_id={destinationID}&date_utc={time}&max_results={results}&devid={devid}";
-        return Request(url).Result;
-        
+        //string time = DateTime.UtcNow.Date.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ");
+        string url = $"/v3/departures/route_type/{route_type}/stop/{stopID}?direction_id={destinationID}&max_results=10&devid={devid}";
+        Console.WriteLine(JsonSerializer.Deserialize<TrainList>(Request(url).Result).departures[0].estimated_departure_utc);
+        return JsonSerializer.Deserialize<TrainList>(Request(url).Result).departures[0];
     }
 }
