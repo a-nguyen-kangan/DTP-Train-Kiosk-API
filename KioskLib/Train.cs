@@ -37,10 +37,11 @@ public class TrainFetch : Fetch
             {
                 continue;
             }
-            DateTime dt = DateTime.ParseExact(t.estimated_departure_utc, "yyyy-MM-ddTHH:mm:ssZ", null); 
-            DateTime time = DateTime.UtcNow.Date.ToUniversalTime();
+            DateTime dt = DateTime.ParseExact(t.estimated_departure_utc, "yyyy-MM-ddTHH:mm:ssZ", null);
+            DateTime time = DateTime.Now;
             if(dt >= time.AddMinutes(5))
             {
+                t.estimated_departure_utc = (dt - time).TotalMinutes.ToString("N0");
                 string urll = $"/v3/runs/{t.run_id}?expand=None&devid={devid}";
                 return JsonSerializer.Serialize(t);
             };
