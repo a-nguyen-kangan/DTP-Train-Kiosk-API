@@ -17,6 +17,6 @@ public class KioskController : ControllerBase
     [HttpGet("departures/{stopID}/{destinationID}")]
     public string Stops(int stopID, int destinationID)
     {
-        return JsonSerializer.Serialize(new TrainFetch().Departures(stopID, destinationID));
+        return new TrainFetch().Departures(stopID, destinationID);
     }
 }
