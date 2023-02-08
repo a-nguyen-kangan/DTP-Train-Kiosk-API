@@ -12,6 +12,17 @@ public class Train
     public int? direction_id { get; set; }
     public string? estimated_departure_utc { get; set; }
     public string? platform_number { get; set; }
+    public bool express { get; set; } = false ;
+}
+
+public class RunList
+{
+    public List<Run>? runs { get; set; }
+}
+
+public class Run
+{
+    public int? express_stop_count { get; set; }
 }
 
 public class TrainFetch : Fetch
@@ -43,6 +54,11 @@ public class TrainFetch : Fetch
             {
                 t.estimated_departure_utc = (dt - time).TotalMinutes.ToString("N0");
                 string urll = $"/v3/runs/{t.run_id}?expand=None&devid={devid}";
+                RunList? run = JsonSerializer.Deserialize<RunList>(Request(urll).Result);
+                if(run.runs[0].express_stop_count != 0)
+                {
+                    t.express = true;
+                }
                 return JsonSerializer.Serialize(t);
             };
         }
